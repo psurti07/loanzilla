@@ -10,21 +10,22 @@
 @endpush
 @section('content')
 <!-- main section starts -->
-<section id="hero-7" class="hero-section bg--green-100">
+<section id="hero-5" class=" hero-section bg--green-100">
     <div class="hero-overlay">
         <div class="container">
             <div class="row d-flex align-items-center">
-                <div class="col-md-6 col-lg-6 col-12">
-                    <div class="hero-7-txt mb-30">
-                        <h1 class="s-40 w-700">We Build a Path that Leads <span class="color--green-500">You to Success!</span></h1>
-                        <p class="mb-20">Set out to achieve your financial goals with professional advice from some of the most intelligent minds in the industry.</p>
-                        <a href="{{ route('self.apply.main') }}" class="btn r-04 btn--theme hover--tra-black last-link">Self Apply</a>
-                        <a href="{{ route('loan.agent.main') }}" class="btn r-04 btn--theme hover--tra-black last-link">Hire an Agent</a>
+                <div class="col-lg-6 col-md-6 col-12 text-center">
+                    <div class="">
+                        <img class="img-fluid r-12" src="{{ asset('front/images/img-18.png') }}" alt="image">
                     </div>
                 </div>
-                <div class="col-md-6 col-lg-6 col-12">
-                    <div class="hero-7-img home-img d-flex justify-content-center align-items-start">
-                        <img src="{{ asset('front/images/home-section.webp') }}" alt="easyailoans" width="auto" height="auto">
+            
+                <div class="col-lg-6 col-md-6 col-12">
+                    <div class="hero-5-txt">
+                        <h2 class="s-32 w-700">We Build a Path that Leads <span class="color--green-500">You to Success!</span></h2>
+                        <p class="p-lg">Set out to achieve your financial goals with professional advice from some of the most intelligent minds in the industry.</p>
+                        <a href="{{ route('self.apply.main') }}" class="btn r-04 btn--theme hover--tra-black last-link">Self Apply</a>
+                        <a href="{{ route('loan.agent.main') }}" class="btn r-04 btn--theme hover--tra-black last-link">Hire an Agent</a>
                     </div>
                 </div>
             </div>
@@ -33,142 +34,6 @@
 </section>
 <!-- main section ends -->
 
-<!-- Our Partners section start  -->
-<section id="integrations-2" class="py-80 integrations-section">
-    <div class="container">
-        <div class="r-12 text-center">
-            <div class="row justify-content-center">
-                <div class="col-md-10 col-lg-10">
-                    <div class="section-title mb-50">
-                        <h2 class="s-28">Trusted by the <span class="color--green-500">Best in the Industry</span></h2>
-                        <p class="s-16 color--grey">Partnering with the best NBFCs to provide the best for our customers.</p>
-                    </div>
-                </div>
-            </div>
-            @php
-            $lists = nbfcsList();
-            @endphp
-
-            <div class="bank-crousel">
-                <div class="row">
-                    <div class="col text-center">
-                        <div class="owl-carousel brands-carousel-6 emi-carousel">
-                            {!! $lists['carousel'] !!}
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-<!-- Our Partners section end  -->
-
-<section class="py-80 ct-02 content-section division bg--white-400" id="company">
-    <div class="container">
-        <div class="row justify-content-center">
-            <div class="col-md-10 col-lg-9">
-                <div class="section-title mb-40">
-                    <h2 class="s-28">About <span class="color--green-500">Us!</span></h2>
-                    <p class="s-16 color--grey">Helping You Make Smarter Decisions with Personalized Solutions</p>
-                </div>
-            </div>
-
-            <div class="col-lg-6 col-md-6 col-12">
-                <div class="txt-block left-column">
-                    <p class="">Partnering with industry-leading NBFCs, easyailoans is India’s growing financial consultation and service provider. Our mission is to simplify the loan journey and remove the stress and confusion often faced by individuals while seeking financial support. With the perfect combination of smart technology and the strategic approach, we offer a streamlined digital portal where anyone can get expert-led financial consultation, access services, and apply for the loan from the comfort of their homes – all through our smartly designed plans.</p>
-                </div>
-            </div>
-            <div class="col-lg-6 col-md-6 col-12">
-                <div class="txt-block right-column">
-                    <p class="w-700">Your Financial Success Is Our Purpose!</p>
-                    <ul class="simple-list">
-                        <li class="list-item">
-                            <p>We do not believe in a one-size-fits-all solution. Instead, we take the time to understand each person’s needs so they feel supported at every step.</p>
-                        </li>
-                        <li class="list-item">
-                            <p class="mb-0">We keep the whole process very transparent and easy to understand, helping people move forward with clarity and confidence.</p>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-<hr class="divider">
-
-<!-- why easyailoans section starts -->
-<section id="features-6" class="py-80 features-section division">
-    <div class="container">
-        <div class="row justify-content-center">
-            <div class="col-md-10 col-lg-9">
-                <div class="section-title mb-50">
-                    <h2 class="s-28">Why <span class="color--green-500">easyailoans</span></h2>
-                    <p class="s-16 color--grey">Here's what sets us apart.</p>
-                </div>
-            </div>
-        </div>
-        <div class="fbox-wrapper text-center">
-            <div class="row gx-3 gy-2 row-cols-1 row-cols-md-2 row-cols-lg-4">
-                <div class="col">
-                    <div class="fbox-8 fbox--hover fb-1 r-12 border">
-                        <div class="fbox-ico ico-50">
-                            <div class="shape-ico color--theme">
-                                <span class="flaticon-layers-1"></span>
-                            </div>
-                        </div>
-                        <div class="fbox-txt">
-                            <h4 class="s-18 w-700">Enriching Collaboration</h4>
-                            <p>Access a wide range of financial services empowered by our industry-leading NBFC partners.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="fbox-8 fbox--hover fb-2 r-12 border">
-                        <div class="fbox-ico ico-50">
-                            <div class="shape-ico color--theme">
-                                <span class="flaticon-computer-1"></span>
-                            </div>
-                        </div>
-                        <div class="fbox-txt">
-                            <h4 class="s-18 w-700">100% Online Process</h4>
-                            <p>Experience the convenience and power of digital provisions from the comfort of your own home.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="fbox-8 fbox--hover fb-2 r-12 border">
-                        <div class="fbox-ico ico-50">
-                            <div class="shape-ico color--theme">
-                                <span class="flaticon-click-1"></span>
-                            </div>
-                        </div>
-                        <div class="fbox-txt">
-                            <h4 class="s-18 w-700">Self-Apply Feature</h4>
-                            <p>Take charge of your own finances while reaping the benefits of impeccable provisions.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="fbox-8 fbox--hover fb-3 r-12 border">
-                        <div class="fbox-ico ico-50">
-                            <div class="shape-ico color--theme">
-                                <span class="flaticon-tech-support"></span>
-                            </div>
-                        </div>
-                        <div class="fbox-txt">
-                            <h4 class="s-18 w-700">Hire Loan Agent</h4>
-                            <p>Benefit from our experts' insights and strategies to increase your chances of loan approval.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-<!-- why easyailoans section ends -->
-
-<!-- Trust Badges Section starts -->
 <div id="statistic-1" class=" bg--green-400 ct-03 py-50 statistic-section division">
     <div class="container">
         <div class="statistic-5-wrapper">
@@ -233,71 +98,195 @@
         </div>
     </div>
 </div>
-<!-- Trust Badges Section ends -->
 
-<!-- Products Intro section starts -->
-<section id="products" class="py-80 features-section division">
+<hr class="divider">
+
+<!-- why loanzilla section starts -->
+<section id="features-6" class="py-80 features-section division">
     <div class="container">
         <div class="row justify-content-center">
-            <div class="col-md-10 col-lg-10">
-                <div class="section-title mb-40">
-                    <h2 class="s-28">Boost Your Finances With the <span class="color--green-500">Strategic Approach</span></h2>
-                    <p class="s-16 color--grey">Choose the plan that best fits your needs and preferences.</p>
+            <div class="col-md-10 col-lg-9">
+                <div class="section-title mb-50">
+                    <h2 class="s-28">Why <span class="color--green-500">loanzilla</span></h2>
+                    <p class="s-16 color--grey">Here's what sets us apart.</p>
                 </div>
             </div>
         </div>
-        <div class="row fbox-wrapper text-center align-items-center g-4">
-            <div class="col-12 col-lg-6">
-                <div class="img-block left-column">
-                    <img class="img-fluid light-theme-img"
-                        src="{{ asset('front/images/Easy-Self-Apply-ai.png') }}"
-                        alt="feature-image">
+      
+        <div class="fbox-wrapper text-center">
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4">
+                <div class="col">
+                    <div class="fbox-6 fb-1">
+                        <div class="fbox-ico ico-55">
+                            <div class="shape-ico color--theme">
+                                <span class="flaticon-layers-1"></span>
+                                <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M69.8,-23C76.3,-2.7,57.6,25.4,32.9,42.8C8.1,60.3,-22.7,67,-39.1,54.8C-55.5,42.7,-57.5,11.7,-48.6,-11.9C-39.7,-35.5,-19.8,-51.7,5.9,-53.6C31.7,-55.6,63.3,-43.2,69.8,-23Z"
+                                        transform="translate(100 100)"></path>
+                                </svg>
+                            </div>
+                        </div>
+                        <div class="fbox-txt">
+                            <h4 class="s-18 w-700">Enriching Collaboration</h4>
+                            <p>Access a wide range of financial services empowered by our industry-leading NBFC partners.</p>
+                        </div>
+                    </div>
                 </div>
-            </div>
-            <div class="col-12 col-lg-6">
-                <div class="txt-block right-column text-start">
-                    <h3 class="s-22 w-700 mb-2">Quick Self-Apply</h3>
-                    <p class="mb-2">
-                        Sit back and relax! Allow our dedicated expert loan agent to handle
-                        the entire loan process on your behalf and increase your chances of approval.
-                    </p>
-                    <a href="{{ route('self.apply.main') }}"
-                        class="btn r-04 btn--theme hover--tra-black">
-                        Apply Now
-                    </a>
-                </div>
-            </div>
-        </div>
 
-        <div class="row fbox-wrapper text-center align-items-center g-4">
-            <div class="col-12 col-lg-6 order-2 order-lg-1">
-                <div class="txt-block right-column text-start">
-                    <h3 class="s-22 w-700 mb-2">Hire Loan Agent</h3>
-                    <p class="mb-2">
-                        Get instant access to the top-quality digital loan consultation,
-                        login links, and exclusive personalized loan offer from our trusted NBFC partners.
-                    </p>
-                    <a href="{{ route('loan.agent.main') }}"
-                        class="btn r-04 btn--theme hover--tra-black">
-                        Apply Now
-                    </a>
+                <div class="col">
+                    <div class="fbox-6 fb-2">
+                        <div class="fbox-ico ico-55">
+                            <div class="shape-ico color--theme">
+                                <span class="flaticon-computer-1"></span>
+                                <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M69.8,-23C76.3,-2.7,57.6,25.4,32.9,42.8C8.1,60.3,-22.7,67,-39.1,54.8C-55.5,42.7,-57.5,11.7,-48.6,-11.9C-39.7,-35.5,-19.8,-51.7,5.9,-53.6C31.7,-55.6,63.3,-43.2,69.8,-23Z"
+                                        transform="translate(100 100)"></path>
+                                </svg>
+                            </div>
+                        </div>
+                        <div class="fbox-txt">
+                            <h4 class="s-18 w-700">100% Online Process</h4>
+                            <p>Experience the convenience and power of digital provisions from the comfort of your own home.</p>
+                        </div>
+
+                    </div>
                 </div>
-            </div>
-            <div class="col-12 col-lg-6 order-1 order-lg-2">
-                <div class="img-block left-column">
-                    <img class="img-fluid light-theme-img"
-                        src="{{ asset('front/images/Hire-Loan-Agent-ai.png') }}"
-                        alt="feature-image">
+
+                <div class="col">
+                    <div class="fbox-6 fb-3">
+                        <div class="fbox-ico ico-55">
+                            <div class="shape-ico color--theme">
+                                <span class="flaticon-click-1"></span>
+                                <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M69.8,-23C76.3,-2.7,57.6,25.4,32.9,42.8C8.1,60.3,-22.7,67,-39.1,54.8C-55.5,42.7,-57.5,11.7,-48.6,-11.9C-39.7,-35.5,-19.8,-51.7,5.9,-53.6C31.7,-55.6,63.3,-43.2,69.8,-23Z"
+                                        transform="translate(100 100)"></path>
+                                </svg>
+                            </div>
+                        </div>
+
+                        <div class="fbox-txt">
+                            <h4 class="s-18 w-700">Self-Apply Feature</h4>
+                            <p>Take charge of your own finances while reaping the benefits of impeccable provisions.</p>
+                        </div>
+                    </div>
                 </div>
+
+                <div class="col">
+                    <div class="fbox-6 fb-4">
+                        <div class="fbox-ico ico-55">
+                            <div class="shape-ico color--theme">
+                                <span class="flaticon-tech-support"></span>
+                                <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M69.8,-23C76.3,-2.7,57.6,25.4,32.9,42.8C8.1,60.3,-22.7,67,-39.1,54.8C-55.5,42.7,-57.5,11.7,-48.6,-11.9C-39.7,-35.5,-19.8,-51.7,5.9,-53.6C31.7,-55.6,63.3,-43.2,69.8,-23Z"
+                                        transform="translate(100 100)"></path>
+                                </svg>
+                            </div>
+                        </div>
+                        <div class="fbox-txt">
+                            <h4 class="s-18 w-700">Hire Loan Agent</h4>
+                            <p>Benefit from our experts' insights and strategies to increase your chances of loan approval.</p>
+                        </div>
+                    </div>
+                </div>
+
             </div>
         </div>
-
     </div>
 </section>
-<!-- Products Intro section ends -->
 
-<!-- Quick and swift steps section starts -->
-<section id="features-2" class="py-80 bg--white-400 features-section division">
+<section class="py-80 ct-02 content-section division bg--green-100" id="company">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-10 col-lg-9">
+                <div class="section-title mb-40">
+                    <h2 class="s-28">About <span class="color--green-500">Us!</span></h2>
+                    <p class="s-16 color--grey">Helping You Make Smarter Decisions with Personalized Solutions</p>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="txt-block right-column">
+
+                    <h5 class="w-700">Experience The Most Streamlined Digital Loan Process</h5>
+
+                    <p class="">Partnering with industry-leading NBFCs, loanzilla is India’s growing financial consultation and service provider. Our mission is to simplify the loan journey and remove the stress and confusion often faced by individuals while seeking financial support. With the perfect combination of smart technology and the strategic approach, we offer a streamlined digital portal where anyone can get expert-led financial consultation, access services, and apply for the loan from the comfort of their homes – all through our smartly designed plans.</p>
+
+                    <h5 class="w-700">Your Financial Success Is Our Purpose!</h5>
+                    <ul class="simple-list">
+                        <li class="list-item">
+                            <p>We do not believe in a one-size-fits-all solution. Instead, we take the time to understand each person’s needs so they feel supported at every step.</p>
+                        </li>
+                        <li class="list-item">
+                            <p class="mb-0">We keep the whole process very transparent and easy to understand, helping people move forward with clarity and confidence.</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="img-block left-column">
+                    <img class="img-fluid r-12" src="{{ asset('front/images/img-02.png') }}" alt="content-image">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="pt-100 ct-03 content-section division pb-100" id="plan">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-10 col-lg-9">
+                <div class="section-title mb-40">
+                    <h2 class="s-32 w-700">Simplified Solution</h2>
+                    <p class="s-18 color--grey">The All-In-One Solution for Your Financial Needs</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="row d-flex align-items-center">
+            <div class="col-md-6 col-lg-6 order-first order-md-2">
+                <div class="img-block right-column ">
+                    <img class="img-fluid r-12" src="{{ asset('front/images/img-14.png') }}" alt="content-image">
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-6 order-last order-md-2">
+                <div class="txt-block left-column ">
+                    <div class="border border-2 p-3 mb-2 rounded-3">
+                        <h3 class="s-22 w-700 mb-2">Quick Self-Apply</h3>
+                        <p class="mb-2">
+                            Sit back and relax! Allow our dedicated expert loan agent to handle
+                            the entire loan process on your behalf and increase your chances of approval.
+                        </p>
+                        <a href="{{ route('self.apply.main') }}"
+                            class="btn r-04 btn--theme hover--tra-black">
+                            Apply Now
+                        </a>
+                    </div>
+
+                    <div class="border border-2 p-3 rounded-3">
+                        <h3 class="s-22 w-700 mb-2">Hire Loan Agent</h3>
+                        <p class="mb-2">
+                            Get instant access to the top-quality digital loan consultation,
+                            login links, and exclusive personalized loan offer from our trusted NBFC partners.
+                        </p>
+                        <a href="{{ route('loan.agent.main') }}"
+                            class="btn r-04 btn--theme hover--tra-black">
+                            Apply Now
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="features-2" class="py-80 bg--green-100 features-section division">
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-md-10 col-lg-9">
@@ -411,7 +400,6 @@
                     <form id="emicalculatorform" class="comment-form">
                         <div class="form-horizontal" id="emicalculatorinnerform">
                             <div class="row">
-                                <!-- Loan Amount slider section starts -->
                                 <div class="col-md-12">
                                     <div class="row form-group lamount flex-display align-items-center">
                                         <label class="col-6 control-label s-18 w-500" for="loanamount">Loan amount</label>
@@ -457,8 +445,6 @@
                                         </span>
                                     </div>
                                 </div>
-                                <!-- Loan Amount slider section ends -->
-                                <!-- Interest Rate slider section starts -->
                                 <div class="col-md-12 mt-100">
                                     <div class="row form-group lint flex-display align-items-center">
                                         <label class="col-6 s-18 w-500 control-label" for="loaninterest">Interest rate</label>
@@ -496,8 +482,6 @@
                                         </span>
                                     </div>
                                 </div>
-                                <!-- Interest Rate slider section ends -->
-                                <!-- Loan Tenure slider section starts -->
                                 <div class="col-md-12 mt-100">
                                     <div class="row form-group lterm flex-display align-items-center">
                                         <label class="col-6 s-18 w-500 control-label" for="loanterm">Select EMI option</label>
@@ -657,8 +641,38 @@
 </section>
 <!-- Testimonioals section ends -->
 
+<!-- Our Partners section start  -->
+<section id="integrations-2" class="py-80 integrations-section">
+    <div class="container">
+        <div class="r-12 text-center">
+            <div class="row justify-content-center">
+                <div class="col-md-10 col-lg-10">
+                    <div class="section-title mb-50">
+                        <h2 class="s-28">Trusted by the <span class="color--green-500">Best in the Industry</span></h2>
+                        <p class="s-16 color--grey">Partnering with the best NBFCs to provide the best for our customers.</p>
+                    </div>
+                </div>
+            </div>
+            @php
+            $lists = nbfcsList();
+            @endphp
+
+            <div class="bank-crousel">
+                <div class="row">
+                    <div class="col text-center">
+                        <div class="owl-carousel brands-carousel-6 emi-carousel">
+                            {!! $lists['carousel'] !!}
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Our Partners section end  -->
+
 <!-- Contact Start -->
-<section id="contact" class="py-80 bg--white-400">
+<section id="contact" class="py-80 bg--green-100">
     <div class="container">
         <div class="row align-items-center justify-content-center">
             <div class="col-lg-6 md-mb-50">

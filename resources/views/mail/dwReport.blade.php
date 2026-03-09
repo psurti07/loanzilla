@@ -88,13 +88,13 @@
                                                                             class="es-m-txt-c"
                                                                             style="padding: 0; margin: 0; padding-top: 5px; font-size: 0;">
                                                                             <a target="_blank"
-                                                                                href="https://easyailoans.com/"
+                                                                                href="https://loanzilla.com/"
                                                                                 style="-webkit-text-size-adjust: none; -ms-text-size-adjust: none; mso-line-height-rule: exactly; text-decoration: underline; color: #000f26; font-size: 14px;">
-                                                                            <img src="https://easyailoans.com/front/images/logo/logo.png"
-                                                                                alt="EasyAILoans"
+                                                                            <img src="https://loanzilla.com/front/images/logo/logo.png"
+                                                                                alt="Loanzilla"
                                                                                 style="display: block; border: 0; outline: 0; text-decoration: none; -ms-interpolation-mode: bicubic;"
                                                                                 width="190"
-                                                                                title="EasyAILoans">
+                                                                                title="Loanzilla">
                                                                             </a>
                                                                         </td>
                                                                     </tr>
@@ -214,9 +214,9 @@
                                                                                                 <td><p style="margin:0">Email :</p></td>
                                                                                             </tr>
                                                                                             <tr>
-                                                                                                <td><h5 style="margin:0">{{ $agent->fullname ?? 'EasyAILoans Support' }}</h5></td>
+                                                                                                <td><h5 style="margin:0">{{ $agent->fullname ?? 'Loanzilla Support' }}</h5></td>
                                                                                                 <td><h5 style="margin:0">+91 {{ $agent->mobile ?? '97242 06519' }}</h5></td>
-                                                                                                <td><h5 style="margin:0">{{ $agent->emailid ?? 'info@easyailoans.com' }}</h5></td>
+                                                                                                <td><h5 style="margin:0">{{ $agent->emailid ?? 'info@loanzilla.com' }}</h5></td>
                                                                                             </tr>
                                                                                         </table>
                                                                                     </td>
@@ -279,7 +279,7 @@
                                                                                     @endphp
                                                                                     <tr style="font-family: Poppins, sans-serif;">
                                                                                         <td>{{ $loop->iteration }}</td>
-                                                                                        <td><img src="https://manage.easyailoans.com/upload/banks/{{ $offer->bank_image }}" alt="{{ $offer->bank_name }}" class="bank-logo"></td>
+                                                                                        <td><img src="https://manage.loanzilla.com/upload/banks/{{ $offer->bank_image }}" alt="{{ $offer->bank_name }}" class="bank-logo"></td>
                                                                                         <td>{{ $offer->bank_name }}</td>
                                                                                         <td>{{ $offer->tenures }}&nbsp;Months<br><span class="subtext">({{ $offer->roi }}%)</span></td>
                                                                                         <td><strong>{{ $click }}</strong> Clicked</td>

@@ -109,7 +109,7 @@ if (!function_exists('nbfcsList')) {
             $data['list'] .= '<div class="col company" data-index="' . $loop . '">
                             <a href="javascript:;" class="in_tool it-1 r-10">
                                 <div class="bg--white-100 block-shadow r-10 mb-20">
-                                    <img class="img-fluid" src="https://manage.easyailoans.com/upload/banks/'.$bank->bank_image.'" alt="' . $bank->bank_name . '" width="auto">
+                                    <img class="img-fluid" src="https://manage.loanzilla.com/upload/banks/'.$bank->bank_image.'" alt="' . $bank->bank_name . '" width="auto">
                                 </div>
                                 <h6 class="s-14 w-700">' . $bank->bank_name . '</h6>
                             </a>
@@ -117,7 +117,7 @@ if (!function_exists('nbfcsList')) {
 
             $data['carousel'] .= '<div class="bg--white-100 r-10 mb-20">
                                     <a href="javascript:;">
-                                        <img class="img-fluid" src="https://manage.easyailoans.com/upload/banks/'.$bank->bank_image.'" alt="' . $bank->bank_name . '" width="auto">
+                                        <img class="img-fluid" src="https://manage.loanzilla.com/upload/banks/'.$bank->bank_image.'" alt="' . $bank->bank_name . '" width="auto">
                                     </a>
                                 </div>';
             $loop++;
@@ -484,7 +484,7 @@ if (!function_exists('handleFileUpload')) {
 if(!function_exists('sendBrevoHtmlMail')){
     function sendBrevoHtmlMail($maildata, $subject = '', $message = '', $sendmail = '', $attachmentPath = ''){
         $data['sender']['name'] = env('APP_NAME');
-        $data["sender"]["email"] = 'info@easyailoans.com';
+        $data["sender"]["email"] = 'info@loanzilla.com';
 
         $user_res["name"] = $maildata["fullname"];
         $user_res["email"] = $maildata["email"];
@@ -539,7 +539,7 @@ if(!function_exists('sendBrevoHtmlMail')){
 if(!function_exists('sendBrevoHtmlMail2')){
     function sendBrevoHtmlMail2($maildata, $subject = '', $message = '', $sendmail = '', $attachments = []){
         $data['sender']['name'] = env('APP_NAME');
-        $data["sender"]["email"] = 'info@easyailoans.com';
+        $data["sender"]["email"] = 'info@loanzilla.com';
 
         $user_res["name"] = $maildata["fullname"];
         $user_res["email"] = $maildata["email"];
@@ -695,12 +695,12 @@ if (!function_exists('assignAgentSelf')) {
 if(!function_exists('sendPaymentGreetings')){
     function sendPaymentGreetings($fullname, $mobile, $email){
         /*if($mobile != '') {
-            $smsmessage = "Dear Customer, Congratulations! Your loan application has been successfully submitted. Our Customer Executive will call you shortly. Thanks, EasyAILoans";
+            $smsmessage = "Dear Customer, Congratulations! Your loan application has been successfully submitted. Our Customer Executive will call you shortly. Thanks, Loanzilla";
             $smsresponse = sendtextSMSobb($mobile, $smsmessage, 'main');
         }*/
         if($email != '') {
             // Send email
-            $subject = "Welcome to EasyAILoans";
+            $subject = "Welcome to Loanzilla";
             $content = view('mail.simpleEmailTemplate',compact('fullname'))->render();
             if($content != '') {
                 $maildata = array(
@@ -719,7 +719,7 @@ if(!function_exists('sendPaymentGreetings')){
 if(!function_exists('sendForgetPassword')){
     function sendForgetPassword($fullname, $mobile, $email, $pswd){
         /*if($mobile != '') {
-            $smsmessage = "Dear Customer, Congratulations! Your loan application has been successfully submitted. Our Customer Executive will call you shortly. Thanks, EasyAILoans";
+            $smsmessage = "Dear Customer, Congratulations! Your loan application has been successfully submitted. Our Customer Executive will call you shortly. Thanks, Loanzilla";
             $smsresponse = sendtextSMSobb($mobile, $smsmessage, 'main');
         }*/
         if($email != '') {

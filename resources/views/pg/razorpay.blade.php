@@ -43,8 +43,8 @@
           "amount": amount * 100,
           "currency": "INR",
           "order_id": orderid,
-          "name": "EasyAILoans",
-          "image": "https://easyailoans.com/assets/images/logo/favicon.ico",
+          "name": "Loanzilla",
+          "image": "https://loanzilla.com/assets/images/logo/favicon.ico",
           "description": description,
           "prefill": {
             "name": fullname,

@@ -2,11 +2,6 @@
 <html lang="en">
 @include('partials.front.head')
 <body>
-    <!-- PRELOADER SPINNER -->	
-    <div id="loading" class="loading--theme">
-        <div id="loading-center"><span class="loader-img"></span></div>
-    </div>
-
     <!-- Google Tag Manager (noscript) -->
     <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TN4W7WVS"
     height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>

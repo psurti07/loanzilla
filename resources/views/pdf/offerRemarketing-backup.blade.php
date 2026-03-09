@@ -3,7 +3,7 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>EasyAILoans Offers</title>
+        <title>Loanzilla Offers</title>
         <style>
             .card-wrapper {
               position: relative;
@@ -88,9 +88,9 @@
                 height: 100%;
                 background-repeat: repeat;
                 background-position: center top;
-                background-image: url(https://easyailoans.com/assets/images/mail-bgm.png);
+                background-image: url(https://loanzilla.com/assets/images/mail-bgm.png);
                 background-color: #f9f9f9;
-                " background="https://easyailoans.com/front/images/bg-01.webp">
+                " background="https://loanzilla.com/front/images/bg-01.webp">
                 <tbody>
                     <tr>
                         <td class="es-m-margin" valign="top" style="padding: 0; margin: 0;">
@@ -130,13 +130,13 @@
                                                                                             class="es-m-txt-c"
                                                                                             style="padding: 0; margin: 0; padding-top: 5px; font-size: 0;">
                                                                                             <a target="_blank"
-                                                                                                href="https://easyailoans.com/"
+                                                                                                href="https://loanzilla.com/"
                                                                                                 style="-webkit-text-size-adjust: none; -ms-text-size-adjust: none; mso-line-height-rule: exactly; text-decoration: underline; color: #000f26; font-size: 14px;">
-                                                                                            <img src="https://easyailoans.com/front/images/logo/logo.png"
-                                                                                                alt="EasyAILoans"
+                                                                                            <img src="https://loanzilla.com/front/images/logo/logo.png"
+                                                                                                alt="Loanzilla"
                                                                                                 style="display: block; border: 0; outline: 0; text-decoration: none; -ms-interpolation-mode: bicubic;"
                                                                                                 width="190"
-                                                                                                title="EasyAILoans">
+                                                                                                title="Loanzilla">
                                                                                             </a>
                                                                                         </td>
                                                                                     </tr>
@@ -374,7 +374,7 @@
                                                             <td>
                                                                 <div class="card-wrapper" style="position: relative;">
                                                                     <div class="loan-card {{ $loop->index > 0 ? 'blurred' : '' }}">
-                                                                        <img src="https://manage.easyailoans.com/upload/banks/{{$offer->bank_image}}" alt="{{ $offer->bank_name }}" class="logo">
+                                                                        <img src="https://manage.loanzilla.com/upload/banks/{{$offer->bank_image}}" alt="{{ $offer->bank_name }}" class="logo">
                                                                         <div class="info-wrapper">
                                                                             <div class="info-block">
                                                                                 Loan Amount
@@ -475,7 +475,7 @@
                                                                                                     padding: 0 8px;
                                                                                                 "
                                                                                             >
-                                                                                                *The above data is tentative and purely on the information provided by you to easyailoans. Final EMI, loan sanction, loan approval, and loan amount depend on customer
+                                                                                                *The above data is tentative and purely on the information provided by you to loanzilla. Final EMI, loan sanction, loan approval, and loan amount depend on customer
                                                                                                 profile and NBFCs criteria and rules &amp; regulations
                                                                                             </p>
                                                                                         </td>
@@ -549,7 +549,7 @@
                                                                                                 {{ str_ireplace(' ','-',env('COMPANY_MOBILE')) }}
                                                                                                 </a>
                                                                                                 | Email:
-                                                                                                <a href="mailto:info@easyailoans.com"
+                                                                                                <a href="mailto:info@loanzilla.com"
                                                                                                     style="-webkit-text-size-adjust: none; -ms-text-size-adjust: none; mso-line-height-rule: exactly; text-decoration: none; color: #000f26; font-size: 14px;">
                                                                                                 {{ env('INFO_EMAIL') }}
                                                                                                 </a>
@@ -570,7 +570,7 @@
                                                                                                             valign="top"
                                                                                                             style="padding: 0; margin: 0; padding-right: 10px;">
                                                                                                             <a target="_blank"
-                                                                                                                href="https://twitter.com/easyailoans"
+                                                                                                                href="https://twitter.com/loanzilla"
                                                                                                                 style="
                                                                                                                 -webkit-text-size-adjust: none;
                                                                                                                 -ms-text-size-adjust: none;
@@ -598,7 +598,7 @@
                                                                                                             valign="top"
                                                                                                             style="padding: 0; margin: 0; padding-right: 10px;">
                                                                                                             <a target="_blank"
-                                                                                                                href="https://in.pinterest.com/easyailoans/"
+                                                                                                                href="https://in.pinterest.com/loanzilla/"
                                                                                                                 style="
                                                                                                                 -webkit-text-size-adjust: none;
                                                                                                                 -ms-text-size-adjust: none;
@@ -630,7 +630,7 @@
                                                                                                             valign="top"
                                                                                                             style="padding: 0; margin: 0; padding-right:10px">
                                                                                                             <a target="_blank"
-                                                                                                                href="http://www.youtube.com/@easyailoans"
+                                                                                                                href="http://www.youtube.com/@loanzilla"
                                                                                                                 style="
                                                                                                                 -webkit-text-size-adjust: none;
                                                                                                                 -ms-text-size-adjust: none;
@@ -663,7 +663,7 @@
                                                                                                             valign="top"
                                                                                                             style="padding: 0; margin: 0;padding-right:10px">
                                                                                                             <a target="_blank"
-                                                                                                                href="https://www.facebook.com/@easyailoans.in"
+                                                                                                                href="https://www.facebook.com/@loanzilla.in"
                                                                                                                 style="
                                                                                                                 -webkit-text-size-adjust: none;
                                                                                                                 -ms-text-size-adjust: none;
@@ -695,7 +695,7 @@
                                                                                                             valign="top"
                                                                                                             style="padding: 0; margin: 0;">
                                                                                                             <a target="_blank"
-                                                                                                                href="https://www.instagram.com/easyailoans/"
+                                                                                                                href="https://www.instagram.com/loanzilla/"
                                                                                                                 style="
                                                                                                                 -webkit-text-size-adjust: none;
                                                                                                                 -ms-text-size-adjust: none;

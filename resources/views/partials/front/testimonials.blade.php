@@ -62,7 +62,7 @@
     </div>
     <div class="review-1 bg--white-100 block-shadow r-08">
         <div class="review-txt pt-30">
-            <p class="p-md"><i>"Well done EasyAILoans team, your guidance really makes a big difference. Also services are superb"</i></p>
+            <p class="p-md"><i>"Well done Loanzilla team, your guidance really makes a big difference. Also services are superb"</i></p>
             <div class="author-data clearfix">
                 <div class="review-avatar">
                     <img src="{{ asset('front/images/logo/apple-touch-icon.png') }}" alt="review-avatar" width="auto">
@@ -102,7 +102,7 @@
     </div>
     <div class="review-1 bg--white-100 block-shadow r-08">
         <div class="review-txt pt-30">
-            <p class="p-md"><i>“It just went beyond my expectations. It’s so easy to get effective loan consultation with EasyAILoans”</i></p>
+            <p class="p-md"><i>“It just went beyond my expectations. It’s so easy to get effective loan consultation with Loanzilla”</i></p>
             <div class="author-data clearfix">
                 <div class="review-avatar">
                     <img src="{{ asset('front/images/logo/apple-touch-icon.png') }}" alt="review-avatar" width="auto">
