@@ -22,8 +22,8 @@
             
                 <div class="col-lg-6 col-md-6 col-12">
                     <div class="hero-5-txt">
-                        <h2 class="s-32 w-700">We Build a Path that Leads <span class="color--green-500">You to Success!</span></h2>
-                        <p class="p-lg">Set out to achieve your financial goals with professional advice from some of the most intelligent minds in the industry.</p>
+                        <h2 class="s-32 w-700">Helping You Achieve Financial <span class="color--green-500">Success with Confidence! </span></h2>
+                        <p class="p-lg">Reach your financial goals the smart way with expert financial consultation and services delivered through a seamless online portal.</p>
                         <a href="{{ route('self.apply.main') }}" class="btn r-04 btn--theme hover--tra-black last-link">Self Apply</a>
                         <a href="{{ route('loan.agent.main') }}" class="btn r-04 btn--theme hover--tra-black last-link">Hire an Agent</a>
                     </div>
@@ -43,11 +43,11 @@
                         <div class="statistic-block">
                             <div class="statistic-digit">
                                 <h2 class="s-30 w-700 mb-10 text-white">
-                                    <span class="count-element">4</span>.<span class="count-element">5</span>k
+                                    <span class="count-element">5000</span></span>+
                                 </h2>
                             </div>
                             <div class="statistic-txt">
-                                <h5 class="s-16 w-500 text-white">Customers Served</h5>
+                                <h5 class="s-16 w-500 text-white">Happy Customer</h5>
                             </div>
                         </div>
                     </div>
@@ -57,11 +57,11 @@
                         <div class="statistic-block">
                             <div class="statistic-digit">
                                 <h2 class="s-30 w-700 mb-10 text-white">
-                                    <span class="count-element">10</span>+
+                                    <span class="count-element">3</span>CR+
                                 </h2>
                             </div>
                             <div class="statistic-txt">
-                                <h5 class="s-16 w-500 text-white">NBFC Partners</h5>
+                                <h5 class="s-16 w-500 text-white">Disbursal</h5>
                             </div>
                         </div>
                     </div>
@@ -71,11 +71,11 @@
                         <div class="statistic-block">
                             <div class="statistic-digit">
                                 <h2 class="s-30 w-700 mb-10 text-white">
-                                    <span class="count-element">12</span>+
+                                    <span class="count-element">10</span>+
                                 </h2>
                             </div>
                             <div class="statistic-txt">
-                                <h5 class="s-16 w-500 text-white">Workforce</h5>
+                                <h5 class="s-16 w-500 text-white">NBFC Partners</h5>
                             </div>
                         </div>
                     </div>
@@ -108,7 +108,7 @@
             <div class="col-md-10 col-lg-9">
                 <div class="section-title mb-50">
                     <h2 class="s-28">Why <span class="color--green-500">loanzilla</span></h2>
-                    <p class="s-16 color--grey">Here's what sets us apart.</p>
+                    <p class="s-16 color--grey">Here's What Makes Us Different. </p>
                 </div>
             </div>
         </div>
@@ -128,8 +128,8 @@
                             </div>
                         </div>
                         <div class="fbox-txt">
-                            <h4 class="s-18 w-700">Enriching Collaboration</h4>
-                            <p>Access a wide range of financial services empowered by our industry-leading NBFC partners.</p>
+                            <h4 class="s-18 w-700">Tie-Up With Top NBFCs </h4>
+                            <p>We collaborate with industry-leading NBFCs to provide you with a wide range of financial services. </p>
                         </div>
                     </div>
                 </div>
@@ -148,7 +148,7 @@
                         </div>
                         <div class="fbox-txt">
                             <h4 class="s-18 w-700">100% Online Process</h4>
-                            <p>Experience the convenience and power of digital provisions from the comfort of your own home.</p>
+                            <p>Relax and begin your financial consultation process with a few simple clicks - without toiling around town. </p>
                         </div>
 
                     </div>
@@ -168,8 +168,8 @@
                         </div>
 
                         <div class="fbox-txt">
-                            <h4 class="s-18 w-700">Self-Apply Feature</h4>
-                            <p>Take charge of your own finances while reaping the benefits of impeccable provisions.</p>
+                            <h4 class="s-18 w-700">Expert Financial consultation</h4>
+                            <p>Upscale your finances by leveraging our experienced in-house experts' insights, guidance, and strategies. </p>
                         </div>
                     </div>
                 </div>
@@ -187,8 +187,8 @@
                             </div>
                         </div>
                         <div class="fbox-txt">
-                            <h4 class="s-18 w-700">Hire Loan Agent</h4>
-                            <p>Benefit from our experts' insights and strategies to increase your chances of loan approval.</p>
+                            <h4 class="s-18 w-700">Personalized Tracking Portal</h4>
+                            <p>Access relevant information instantly at your fingertips, so you can move forward with clarity and confidence.</p>
                         </div>
                     </div>
                 </div>
@@ -204,7 +204,7 @@
             <div class="col-md-10 col-lg-9">
                 <div class="section-title mb-40">
                     <h2 class="s-28">About <span class="color--green-500">Us!</span></h2>
-                    <p class="s-16 color--grey">Helping You Make Smarter Decisions with Personalized Solutions</p>
+                    <p class="s-16 color--grey">Guiding you towards smarter financial decisions.</p>
                 </div>
             </div>
 
@@ -213,8 +213,10 @@
 
                     <h5 class="w-700">Experience The Most Streamlined Digital Loan Process</h5>
 
-                    <p class="">Partnering with industry-leading NBFCs, loanzilla is India’s growing financial consultation and service provider. Our mission is to simplify the loan journey and remove the stress and confusion often faced by individuals while seeking financial support. With the perfect combination of smart technology and the strategic approach, we offer a streamlined digital portal where anyone can get expert-led financial consultation, access services, and apply for the loan from the comfort of their homes – all through our smartly designed plans.</p>
-
+                    <p class="">At Loanzila, we believe managing your finances should be clear, simple, and stress-free. As a trusted financial consultation and services company, we guide individuals through the loan process with personalized advice, clarity, and support at every step.</p>
+                    
+                    <p class="">Through our partnerships with multiple NBFCs, we provide access to a wide range of financial solutions, helping clients understand their options and take informed steps.</p>
+                    <p class="">At Loanzila, we don’t just provide guidance – we help individuals make financial decisions with confidence and move closer to their dreams.</p>
                     <h5 class="w-700">Your Financial Success Is Our Purpose!</h5>
                     <ul class="simple-list">
                         <li class="list-item">
@@ -241,8 +243,8 @@
         <div class="row justify-content-center">
             <div class="col-md-10 col-lg-9">
                 <div class="section-title mb-40">
-                    <h2 class="s-32 w-700">Simplified Solution</h2>
-                    <p class="s-18 color--grey">The All-In-One Solution for Your Financial Needs</p>
+                    <h2 class="s-32 w-700">Empower Your Finances with a Strategic Approach</h2>
+                    <p class="s-18 color--grey">Select the plan that fits your needs and goals.</p>
                 </div>
             </div>
         </div>
@@ -259,8 +261,7 @@
                     <div class="border border-2 p-3 mb-2 rounded-3">
                         <h3 class="s-22 w-700 mb-2">Quick Self-Apply</h3>
                         <p class="mb-2">
-                            Sit back and relax! Allow our dedicated expert loan agent to handle
-                            the entire loan process on your behalf and increase your chances of approval.
+                            Access top-quality digital loan consultation, quick login links, and exclusive personalized offers from our trusted NBFC partners.
                         </p>
                         <a href="{{ route('self.apply.main') }}"
                             class="btn r-04 btn--theme hover--tra-black">
@@ -271,8 +272,7 @@
                     <div class="border border-2 p-3 rounded-3">
                         <h3 class="s-22 w-700 mb-2">Hire Loan Agent</h3>
                         <p class="mb-2">
-                            Get instant access to the top-quality digital loan consultation,
-                            login links, and exclusive personalized loan offer from our trusted NBFC partners.
+                            Let our experienced loan experts take care of the entire process while you enjoy a smooth and hassle-free loan experience.
                         </p>
                         <a href="{{ route('loan.agent.main') }}"
                             class="btn r-04 btn--theme hover--tra-black">
@@ -292,7 +292,7 @@
             <div class="col-md-10 col-lg-9">
                 <div class="section-title mb-40">
                     <h2 class="s-28">How it <span class="color--green-500">works!</span></h2>
-                    <p class="s-16 color--grey">Apply Now In 6 Easy Steps</p>
+                    <p class="s-16 color--grey">6 Easy Steps To Financial Success.</p>
                 </div>
             </div>
         </div>
@@ -307,7 +307,7 @@
                             </div>
                         </div>
                         <div class="fbox-txt">
-                            <p>Begin the process by entering your mobile number and bank-registered name.</p>
+                            <p>Get started by entering your mobile number and bank-registered name.</p>
                         </div>
                     </div>
                 </div>
@@ -320,7 +320,7 @@
                             </div>
                         </div>
                         <div class="fbox-txt">
-                            <p>Fill in the remaining information, and our automated system will determine your eligibility and display pre-approved loan offer(s). This is not a final offer.</p>
+                            <p>Complete the remaining details, and our automated system will check your eligibility and show any pre-approved loan offers available. This is not a final offer.</p>
                         </div>
                     </div>
                 </div>
@@ -333,7 +333,7 @@
                             </div>
                         </div>
                         <div class="fbox-txt">
-                            <p>Buy our subscription plan to gain access to the displayed pre-approved loan offer(s).</p>
+                            <p>Purchase our subscription plan to unlock access to the displayed pre-approved loan offers.</p>
                         </div>
                     </div>
                 </div>
@@ -346,7 +346,7 @@
                             </div>
                         </div>
                         <div class="fbox-txt">
-                            <p>Our login department will contact you within 24-48 hours for verification, and you will need to submit your documents to proceed.</p>
+                            <p>Within 24–48 hours, our login team will reach out for verification and guide you through submitting the required documents.</p>
                         </div>
                     </div>
                 </div>
@@ -359,7 +359,7 @@
                             </div>
                         </div>
                         <div class="fbox-txt">
-                            <p>Your documents and profile will be verified by the NBFC as per their terms and conditions.</p>
+                            <p>Your documents and profile will be verified by the NBFC in accordance with their terms and conditions.</p>
                         </div>
                     </div>
                 </div>
@@ -372,7 +372,7 @@
                             </div>
                         </div>
                         <div class="fbox-txt">
-                            <p>The NBFC will make the final decision on loan sanction, approval, and disbursement based on their rules and regulations.</p>
+                            <p>The final decision on loan sanction, approval, and disbursement will be made by the NBFC as per their rules and regulations.</p>
                         </div>
                     </div>
                 </div>
@@ -390,7 +390,7 @@
             <div class="col-md-10 col-lg-10">
                 <div class="section-title mb-40">
                     <h2 class="s-28">Calculate Your <span class="color--green-500">EMI in Seconds</span></h2>
-                    <p class="s-16 color--grey">Plan your finances more confidently!</p>
+                    <p class="s-16 color--grey">Plan your finances with more confidence! </p>
                 </div>
             </div>
         </div>
@@ -625,8 +625,8 @@
         <div class="row justify-content-center">
             <div class="col-md-12 col-lg-12">
                 <div class="section-title mb-40">
-                    <h2 class="s-28">What Our <span class="color--green-500">Customer Says</span></h2>
-                    <p class="s-16 color--grey">Hear directly from our customers about their experiences with us.</p>
+                    <h2 class="s-28">Hear Directly From <span class="color--green-500">Our Customers</span></h2>
+                    <p class="s-16 color--grey">The words that encourage us to do better.</p>
                 </div>
             </div>
         </div>
@@ -648,8 +648,8 @@
             <div class="row justify-content-center">
                 <div class="col-md-10 col-lg-10">
                     <div class="section-title mb-50">
-                        <h2 class="s-28">Trusted by the <span class="color--green-500">Best in the Industry</span></h2>
-                        <p class="s-16 color--grey">Partnering with the best NBFCs to provide the best for our customers.</p>
+                        <h2 class="s-28">Our <span class="color--green-500">NBFC Partners </span></h2>
+                        <p class="s-16 color--grey">Working with the best to bring you the best.</p>
                     </div>
                 </div>
             </div>
@@ -677,8 +677,8 @@
         <div class="row align-items-center justify-content-center">
             <div class="col-lg-6 md-mb-50">
                 <div class="sec-title2 mb-40">
-                    <h2 class="s-28">We Are Here to <span class="color--green-500">Help You</span></h2>
-                    <p class="description">Drop us a message with your basic information, and our team will get back to you shortly.</p>
+                    <h2 class="s-28">Let's <span class="color--green-500">Connect! </span></h2>
+                    <p class="description">Drop us a message, and our team will contact you shortly. </p>
                 </div>
                 <div class="row gy-3 gx-3">
                     <div class="col-lg-6 col-md-6 col-12">
