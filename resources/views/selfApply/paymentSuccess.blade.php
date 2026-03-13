@@ -13,9 +13,9 @@
                                 <div class="card">
                                     <div class="card-body">
                                         <div class="text-center mb-20">
-                                            <h4 class="fw-bolder text-success mb-15">Payment Successful!</h4>
-                                            <p>Your payment has been successfully processed.</p>
-                                            <p>You can now access your pre-approved offers.</p>
+                                            <h4 class="fw-bolder text-success mb-15">Congratulations! 🎉</h4>
+                                            <p>Your Loan Application Has Been Successfully Submitted. </p>
+                                            <p>Please sign in to the customer portal using the credentials sent to your registered email address and upload the required documents. </p>
                                         </div>
 
                                         <hr class="divider my-3"/>
@@ -49,8 +49,7 @@
 
                                         <div class="text-center">
                                             <a href="{{ route('customer.authenticate2') }}" class="btn btn-xs r-04 btn--theme hover--tra-black">Access Pre-Approved Offers!</a>
-                                        
-                                            <p class="text-center s-12 mt-20">If you've any queries/ issues, kindly raise a request here: <a href="{{ route('front.raise.request') }}" class="text-success">Click Here</a></p>
+                                            <p class="text-center s-12 mt-20">For any further queries, raise a request here: <a href="{{ route('front.raise.request') }}" class="text-success">Click Here</a></p>
                                         </div>
                                       
                                     </div>

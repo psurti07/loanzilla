@@ -12,8 +12,8 @@
                     <div class="col-md-12 text-center">
                         <div class="txt-block left-column">
                             <span class="section-id"></span>
-                            <h2 class="w-700">Career <span class="color--green-500">with us</span></h2>
-                            <p class="p-md w-400">Growth. Fun. Excitement. Challenges – all in one place.</p>
+                            <h2 class="w-700">Join <span class="color--green-500">Our Team</span></h2>
+                            <p class="p-md w-400">Unfortunately, we do not currently have any openings.</p>
                         </div>
                     </div>
                 </div>

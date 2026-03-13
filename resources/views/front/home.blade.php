@@ -208,24 +208,12 @@
                 </div>
             </div>
 
-            <div class="col-md-6">
+            <div class="col-md-6 align-items-center m-auto">
                 <div class="txt-block right-column">
-
                     <h5 class="w-700">Experience The Most Streamlined Digital Loan Process</h5>
-
                     <p class="">At Loanzila, we believe managing your finances should be clear, simple, and stress-free. As a trusted financial consultation and services company, we guide individuals through the loan process with personalized advice, clarity, and support at every step.</p>
-                    
                     <p class="">Through our partnerships with multiple NBFCs, we provide access to a wide range of financial solutions, helping clients understand their options and take informed steps.</p>
                     <p class="">At Loanzila, we don’t just provide guidance – we help individuals make financial decisions with confidence and move closer to their dreams.</p>
-                    <h5 class="w-700">Your Financial Success Is Our Purpose!</h5>
-                    <ul class="simple-list">
-                        <li class="list-item">
-                            <p>We do not believe in a one-size-fits-all solution. Instead, we take the time to understand each person’s needs so they feel supported at every step.</p>
-                        </li>
-                        <li class="list-item">
-                            <p class="mb-0">We keep the whole process very transparent and easy to understand, helping people move forward with clarity and confidence.</p>
-                        </li>
-                    </ul>
                 </div>
             </div>
 

@@ -13,9 +13,8 @@
                                 <div class="card">
                                     <div class="card-body">
                                         <div class="text-center mb-20">
-                                            <h4 class="fw-bolder text-danger mb-15">Payment Unsuccessful!</h4>
-                                            <p>We're sorry, but your payment could not be processed. Please try again or contact our support team for assistance.</p>
-                                            <p>हमें खेद है, लेकिन आपका भुगतान प्रोसेस नहीं हो सका। कृपया पुनः प्रयास करें या सहायता के लिए हमारी सपोर्ट टीम से संपर्क करें।</p>
+                                            <h4 class="fw-bolder text-danger mb-15">Sorry </h4>
+                                            <p>Your Subscription Plan Payment Was not Successful. </p>
                                         </div>
 
                                         <hr class="divider my-3"/>
